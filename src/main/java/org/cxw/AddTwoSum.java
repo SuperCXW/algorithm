@@ -42,7 +42,7 @@ public class AddTwoSum {
         ListNode tmp = dumy;
 
         int carry = 0;
-
+        //carry 待进位数据
         while (left != null || right != null || carry > 0) {
             int val = carry;
             if (left != null) {
@@ -55,8 +55,9 @@ public class AddTwoSum {
                 right = right.next;
             }
 
-            int num = val / 10;
-            carry = val % 10;
+            //进位 除10  当前位数字 取模
+            int num = val % 10;
+            carry = val / 10;
 
             tmp.next = new ListNode(num);
             tmp = tmp.next;
