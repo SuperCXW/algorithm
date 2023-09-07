@@ -1,4 +1,4 @@
-package org.cxw;
+package org.cxw.medium;
 
 /**
  * @author 司诚

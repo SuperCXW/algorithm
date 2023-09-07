@@ -1,4 +1,4 @@
-package org.cxw;
+package org.cxw.easy;
 
 import java.util.HashMap;
 import java.util.Map;
